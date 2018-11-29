@@ -14,6 +14,10 @@ import BookForm from './BookForm';
 
 export default {
     name: 'BookList',
+    components: {
+        BookItem,
+        BookForm
+    },
     data() {
         return {
             title: 'All Books',
